@@ -1,0 +1,17 @@
+{
+  "name": "resteembot",
+  "version": "1.0.0",
+  "engines": {
+    "node": "9.6.1"
+	}
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node ./bot.js"
+  },
+  "author": "AND",
+  "license": "ISC",
+  "dependencies": {
+    "steem": "^0.6.7"
+  }
+}
