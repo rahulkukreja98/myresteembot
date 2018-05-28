@@ -1,17 +1,22 @@
 {
-  "name": "resteembot",
-  "version": "1.0.0",
-  "engines": {
-    "node": "9.6.1"
+	"name": "resteembot",
+	"version": "1.0.0",
+	"description": "A resteem bot for steemit social media platform",
+	"main": "bot.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node bot.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/abasinkanga/myresteembot"
+	},
+	"keywords": [
+		"node", "resteem", "server", "steemit"
+	],
+	"author": "AND",
+	"license": "ISC",
+	"dependencies": {
+		"steem": "^0.6.7"
 	}
-  "description": "",
-  "main": "bot.js",
-  "scripts": {
-    "start": "node ./bot.js"
-  },
-  "author": "AND",
-  "license": "ISC",
-  "dependencies": {
-    "steem": "^0.6.7"
-  }
 }
