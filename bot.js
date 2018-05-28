@@ -11,13 +11,24 @@ var MINUTE = 60 * SECOND;
 var HOUR = 60 * MINUTE;
 var MUST_FOLLOW_SINCE = 7 * MINUTE;
 
-var URL1 = "https://steemit.com/resteem/@abasinkanga/36-abasinkanga-free-resteem-service-to-5000-followers-a-resteem-has-more-value-when-there-are-many-followers";
-var URL2 = "https://steemit.com/resteem/@abasinkanga/edited-abasinkanga-resteem-service-faq-frequently-asked-questions";
+var URL1 = "https://steemit.com/smartcash/@abasinkanga/hot-news-the-resteem-service-that-rewards-you-back-see-how-it-works-you-get-a-reward-when-i-resteem-your-post";
+var URL2 = "https://www.steemit.com/@abasinkanga";
+var URL3 = "https://wallet.smartcash.cc/";
+var URL4 = "https://coinmarketcap.com/currencies/smartcash/";
+var URL5 = "https://steemit.com/@smartcash";
 
-var RESTEEM_COMMENT = `This post just got resteemed to 5000 followers.
- - [Need a free resteem? Go here](` + URL1 + `)
- - To get a resteem: Send 0.05 SBD to @` + botUserData.name + ` + post link as memo
- - Read the [Abasinkanga Resteem Service - FAQ (Frequently Asked Questions)]](` + URL2 + `) for full details about this service`;
+var RESTEEM_COMMENT = `@smartbot tip 1
+<center>Congratulations!!!<br>You will be rewarded 1 SMARTCASH for using this resteem service<br>
+<b>[ABASINKANGA RESTEEM SERVICE](` + URL2 + `)</b></center>
+ - <b>This post just got resteemed to 6500 followers.</b>
+ - <b>For anyone to use my resteem service, send 0.1 SBD to @` + botUserData.name + ` + post link as memo.</b>
+ - <b>[Earn SmartCash rewards](` + URL1 + `) when you send SBD to resteem your post</b>
+ - <sub><b>Tip with SMARTCASH</b> or <b>Upvote</b> this comment if you appreciate this service.</sub>
+<h4>How To Use SmartCash?</h4>
+* For menu commands, reply with comment: @smartbot help
+* Get a smartcash wallet [here](` + URL3 + `) 
+* See SmartCash on [coinmarketcap](` + URL4 + `)
+* Want to earn more SmartCash on steemit? [Visit @smartcash's profile](` + URL5 + `)`;
 
 /////////////
 
