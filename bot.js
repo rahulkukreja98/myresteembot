@@ -58,9 +58,9 @@ var commentqueue = [];
 
 /////////////
 
-setInterval(function () { checkForNewTransactions(); }, 30 * SECOND);
+setInterval(function () { checkForNewTransactions(); }, 10 * MINUTE);
 
-setInterval(function () { resteemAPostsInTheQueue(botUser); }, 1 * SECOND);
+setInterval(function () { resteemAPostsInTheQueue(botUser); }, 10 * SECOND);
 
 setInterval(function () { writeACommentInTheQueue(botUser); }, 40 * SECOND);
 
@@ -113,7 +113,7 @@ function checkForNewTransactions() {
 			detectedTransactions++;
 
 			log("Transaction detected: " + transaction.from + 
-				" payed [" + transaction.amountStrFull + "] with memo " + transaction.memo);
+				" paid [" + transaction.amountStrFull + "] with memo " + transaction.memo);
 
 			resteemqueue.push({ author: transaction.author, permlink: transaction.permlink });
 			commentqueue.push({ author: transaction.author, permlink: transaction.permlink, body: RESTEEM_COMMENT });
