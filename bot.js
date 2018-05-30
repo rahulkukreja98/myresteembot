@@ -38,7 +38,7 @@ var steem = require('steem');
 // URL taken from: https://developers.steem.io/
 // If server is unreliable, select another URL
 //		or run own node (2GB needed) as described in the linked docs
-steem.api.setOptions({ url: 'https://gtg.steem.house:8090/' });
+steem.api.setOptions({ url: 'https://steemd.steemitstage.com/' });
 
 var STEEMITURL = "https://steemit.com/";
 var LAST_TRANSACTION_FILEPATH = "./lastHandledTransaction.json";
